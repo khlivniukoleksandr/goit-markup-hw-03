@@ -1,0 +1,155 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: #434455;
+
+  background-color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #2e2f42;
+  font-style: normal;
+}
+.hide {
+  color: #2e2f42;
+}
+.hero-section-button,
+.hero-section-title {
+  color: #fff;
+}
+.info-link {
+  color: #434455;
+}
+.info-link:hover,
+.info-link:focus,
+.info-link:active {
+  color: #404bbf;
+}
+
+.title-span {
+  color: #2e2f42;
+}
+.webstudio-link,
+.navigation-item,
+.hero-section,
+.portfolio-title,
+.description-list-title,
+.team-list-title {
+  color: #2e2f42;
+}
+
+.description-list-title,
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.adress {
+  font-style: normal;
+}
+.adress,
+.description-list-text,
+.team-list-text,
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Header */
+.webstudio-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.navigation-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.navigation-item-link:hover,
+.navigation-item-link:focus,
+.navigation-item-link:active {
+  color: #404bbf;
+}
+/* Hero section */
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-section-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-section-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4d5ae5;
+}
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background-color: #404bbf;
+}
+
+/* Description section */
+
+.description-list-text,
+.team-list-text {
+  color: #434455;
+}
+
+/* Team section */
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-list-item {
+  background-color: #ffffff;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+}
+.footer-title-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
