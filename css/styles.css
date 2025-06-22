@@ -93,6 +93,9 @@ a {
   display: flex;
   align-items: center;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -102,6 +105,7 @@ a {
 .navigation-item {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .header-navigation-contacts {
   display: flex;
